@@ -46,7 +46,7 @@ const About = () => {
               />
             </h2>
             <Fade bottom>
-              I'm a frontend developer focused on creating beautiful and user friendly applications while writing clean codes.
+              <p>I'm a frontend developer focused on creating beautiful and user friendly applications while writing clean codes.</p>
             </Fade>
             <Fade left>
               <a
