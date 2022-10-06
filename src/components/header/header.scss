@@ -15,7 +15,9 @@
   font-family: 'Helvetica Neue', sans-serif;
 }
 .intro-page h1 .home-logo {
-  width: 30px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: -10px;
   animation: fadeIn 2s linear;
   // animation-delay: 1.4s;
   fill: var(--color-tem);
@@ -181,7 +183,7 @@
     letter-spacing: -2px;
   }
   .intro-page h1 .home-logo {
-    width: 60px;
+    width: 90px;
   }
   .section-1 .text-desc {
     font-size: 1rem;
@@ -197,7 +199,7 @@
     letter-spacing: -2px;
   }
   .intro-page h1 .home-logo {
-    width: 60px;
+    width: 90px;
   }
   .section-1 .text-desc {
     font-size: 0.9rem;
@@ -221,7 +223,8 @@
     letter-spacing: -2px;
   }
   .intro-page h1 .home-logo {
-    width: 50px;
+    width: 70px;
+    margin-bottom: -18.5px;
   }
   .section-1 .text-desc {
     font-size: 0.875rem;
@@ -258,7 +261,8 @@
     letter-spacing: -1px;
   }
   .intro-page h1 .home-logo {
-    width: 25px;
+    width: 45px;
+    margin-bottom: -27px;
   }
 
   .section-1 .text-desc {
