@@ -1,5 +1,5 @@
 import React from 'react'
-import myCV from '../../assets/images/MyCV.pdf'
+import myCV from '../../assets/images/my-cv-main.pdf'
 import Reveal from 'react-reveal/Reveal'
 import Fade from 'react-reveal/Fade'
 
