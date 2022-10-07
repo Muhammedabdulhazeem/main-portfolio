@@ -14,6 +14,7 @@ import {
   watch,
   myConnect ,
   sound,
+  myPortfolio,
 } from '../../assets/images'
 
 // projects data
@@ -128,19 +129,19 @@ export const projects = [
     imgUrl: colorGame,
       // 'https://cdn.dribbble.com/userupload/2512424/file/original-03f9f265f9a4adbd54644841930518a1.png?compress=1&resize=320x240&vertical=top',
   },
-  // {
-  //   id: 2,
-  //   name: 'Restaurant Website',
-  //   desc: 'A Responsive restaurant website design with great UI Effect',
-  //   stack: 'React JS',
-  //   gitHubUrl: {
-  //     icon: <GrGithub />,
-  //     url: 'https://github.com/Almarex-Web-Dev/Restaurant-Website-project',
-  //   },
-  //   website: {
-  //     icon: <TbWorld />,
-  //     url: 'https://gericht-restaurant-website.netlify.app/',
-  //   },
-  //   imgUrl: gericht,
-  // },
+  {
+    id: 2,
+    name: 'Porfolio Website',
+    desc: 'A Responsive Portfolio website',
+    stack: 'Nextjs',
+    gitHubUrl: {
+      icon: <GrGithub />,
+      url: 'https://github.com/Muhammedabdulhazeem/portfolio-project',
+    },
+    website: {
+      icon: <TbWorld />,
+      url: 'https://portfolio-project-neon.vercel.app/',
+    },
+    imgUrl: myPortfolio,
+  },
 ]
