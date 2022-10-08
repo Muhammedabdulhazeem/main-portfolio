@@ -93,7 +93,7 @@ const socialIcons = [
   },
   {
     icon: <GrTwitter className="icon switch__color" />,
-    url: 'https://twitter.com/almarexwebdev',
+    url: 'https://twitter.com/M_Abdulhazeem',
   },
   // {
   //   icon: <GrInstagram className="icon switch__color" />,
