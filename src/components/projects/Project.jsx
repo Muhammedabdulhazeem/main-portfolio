@@ -6,7 +6,7 @@ const Project = (props) => {
   const { imgUrl, name, desc, stack, gitHubUrl, website } = props
   return (
     <Fade bottom>
-      <section className="section__projects-single-projects">
+      <section className="section__projects-single-projects space-btw">
         <img src={imgUrl} alt="" />
         <div className="section__projects-contents">
           <p>{name}</p>
@@ -16,10 +16,10 @@ const Project = (props) => {
             <span>{stack}</span>
           </div>
           <div className="section__projects-icon">
-            <a href={gitHubUrl.url} className="switch__color">
+            <a href={gitHubUrl.url} target="_blank" className="switch__color" >
               {gitHubUrl.icon}
             </a>
-            <a href={website.url} className="switch__color">
+            <a href={website.url} target="_blank" className="switch__color">
               {website.icon}
             </a>
           </div>

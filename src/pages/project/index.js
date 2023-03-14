@@ -15,6 +15,7 @@ import {
   myConnect ,
   sound,
   myPortfolio,
+  crytosight
 } from '../../assets/images'
 
 // projects data
@@ -115,18 +116,18 @@ export const projects = [
   },
   {
     id: 4,
-    name: 'Color Game',
-    desc: 'A fun hex color game',
-    stack: 'HTML CSS JS',
+    name: 'Crytosight',
+    desc: 'A sight into the crypto world',
+    stack: 'React Antd Rapid Api',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Muhammedabdulhazeem/colorGame',
+      url: 'https://github.com/Muhammedabdulhazeem/Cryptosight',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://color-game-nu.vercel.app/',
+      url: 'https://cryptosight.vercel.app/',
     },
-    imgUrl: colorGame,
+    imgUrl: crytosight,
       // 'https://cdn.dribbble.com/userupload/2512424/file/original-03f9f265f9a4adbd54644841930518a1.png?compress=1&resize=320x240&vertical=top',
   },
   {
