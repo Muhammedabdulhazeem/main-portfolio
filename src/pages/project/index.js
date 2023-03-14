@@ -15,7 +15,7 @@ import {
   myConnect ,
   sound,
   myPortfolio,
-  crytosight
+  cryptosight
 } from '../../assets/images'
 
 // projects data
@@ -127,7 +127,7 @@ export const projects = [
       icon: <TbWorld />,
       url: 'https://cryptosight.vercel.app/',
     },
-    imgUrl: crytosight,
+    imgUrl: cryptosight,
       // 'https://cdn.dribbble.com/userupload/2512424/file/original-03f9f265f9a4adbd54644841930518a1.png?compress=1&resize=320x240&vertical=top',
   },
   {
